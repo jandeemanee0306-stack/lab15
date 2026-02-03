@@ -23,7 +23,6 @@ int main(){
 
 void shuffle(int *a, int *b, int *c, int *d){
     int r = rand() % 4;
-
     int *arr[4] = {a, b, c, d};
 
     int temp = *arr[0];
